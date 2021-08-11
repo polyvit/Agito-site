@@ -373,6 +373,13 @@ body {
         background-color: #FFFFFF;
         border: none;
     }
+    .main-single {
+        flex-direction: column;
+    }
+    .content {
+        margin-right: 30px;
+        max-width: 400px;
+    }
 }
 @media (max-width: 576px) {
     .container {
@@ -389,5 +396,16 @@ body {
     }
     .search-button-text {
         display: none;
+    }
+    .author {
+        margin-top: 46px;
+        margin-bottom: 46px;
+        width: 264px;
+    }
+    .content {
+        max-width: 300px;
+    }
+    .bottom-line {
+        margin-top: 46px;
     }
 }
